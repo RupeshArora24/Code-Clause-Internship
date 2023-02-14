@@ -13,7 +13,7 @@ dataset = pd.read_csv('colors.csv',names=index,header=None)
 
 
 
-imagepath = r'TEAM EMERGENCE.jpg'
+imagepath = r'Team.jpg'
 
 
 #we have created an object 'image' image here and we are just reading the image
@@ -68,7 +68,7 @@ while True:
   cv2.imshow("image",image)
   if clicked:
     # cv2.rectangle(image,start point,endpoint,color,thickness and rgb values),-1 fills entire rectangle
-    cv2.rectangle(image,(20,20),(750,60),(b,g,r),-1)
+    cv2.rectangle(image,(20,20),(650,60),(b,g,r),-1)
 
     #creating text string to display (color name and rgb values)
     text = get_colorname(r,g,b)+' R = '+str(r)+' G = '+str(g)+' B = '+str(b)
