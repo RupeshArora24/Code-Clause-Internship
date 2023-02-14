@@ -13,7 +13,7 @@ dataset = pd.read_csv('colors.csv',names=index,header=None)
 
 
 
-imagepath = r'colorpic.jpg'
+imagepath = r'TEAM EMERGENCE.jpg'
 
 
 #we have created an object 'image' image here and we are just reading the image
