@@ -3,7 +3,7 @@ import cv2 #this is used to read the image
  
 
 
-
+ 
 
 #the dataset used here is downloded from kagale the link is here itself https://www.kaggle.com/datasets/adityabhndari/color-detection-data-set
 index = ["Color","Color_Name","Hexadecimal_value","r","g","b"]
